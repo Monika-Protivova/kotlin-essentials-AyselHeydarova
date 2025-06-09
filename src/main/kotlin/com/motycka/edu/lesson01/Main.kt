@@ -7,4 +7,6 @@ package com.motycka.edu.lesson01
  */
 fun main(args: Array<String>) {
     // implementation of the main function
+    print("Hello, Kotlin!")
+    print("Program arguments: ${args.joinToString()}")
 }
