@@ -27,7 +27,6 @@ fun conditionals() {
         println("Items: $items")
         val prices = listOf(ESPRESSO_PRICE, CAPPUCCINO_PRICE, LATTE_PRICE, AMERICANO_PRICE, FLAT_WHITE_PRICE, DOUBLE_ESPRESSO_PRICE)
 
-
         val orderPrices = mutableListOf<Double>()
         var totalPrice = 0.0
         items.forEach { item ->
